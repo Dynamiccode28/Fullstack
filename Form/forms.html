@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Learn HTML Forms</title>
+</head>
+<body>
+    <form action="/submit"><!--action specifies : where to sent form data-->
+    <!-- username -->
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" placeholder="Enter you Name" required autofocus><br>
+    <br>
+    <!-- Password -->
+    <label for="password">password:</label>
+    <input type="password" name="password" placeholder="Chupake...:/" id="password"><br>
+
+    <!-- Radio Button -->
+    <label for="gender">Gender: </label><br>
+    <label >Male</label>
+    <input type="radio" name="gender" value="male" id="male">
+    <label>Female</label>
+    <input type="radio" name="gender" value="female" id="female"><br>
+    
+    <!-- Checkbox -->
+    <label for="checkbox">Checkbox:</label>
+    <input type="checkbox">
+    <label>Google</label>
+    <input type="checkbox">
+    <label>Amazon</label>
+    <input type="checkbox">
+    <label>Netflix</label>
+    <input type="checkbox">
+    <label>Prime</label><br>
+
+    
+
+    <!-- Range -->
+    <label for="range">Range</label>
+    <input type="range">
+    </form>
+
+    <!-- Color -->
+    <label for="color">Color</label>
+    <input type="color" name="color" id="color"><br>
+    
+    <!-- search -->
+    <label for="search">Search</label>
+    <input type="search">
+
+    <!-- file -->
+    <label for="fileupload">Upload File:</label>
+    <input type="file" name="" id=""><br>
+
+    <!-- Textarea -->
+    <textarea name="text" id="" cols="30" rows="10">Enter text here....</textarea><br>
+
+    <!-- dropdown list -->
+    <select name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+    </select>
+
+    <!-- combining textarea and dropdownList -->
+
+    <h4>New Form</h4>
+    <form action="/submit">
+        <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea><br>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+        <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
