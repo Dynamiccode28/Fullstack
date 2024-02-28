@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color:cadetblue;
+            
+        }
+        /* child selector(direct child only) */
+        div>p{
+            color:chartreuse;
+        }
+        /* class selector */
+        .one{
+            color: black;
+        }
+        
+        /* id selector */
+        #red{
+            background-color: cornflowerblue;
+            color: black;
+            
+        }
+
+        /* descendent selector */
+        div p{
+            color:darkorange;
+        }
+
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selector */
+        a:visited{
+            color:brown;
+        }
+        a:link{
+            color:burlywood;
+        }
+        a:hover{
+            background-color: black;
+        }
+        a:active{ /*on click bg-color change*/
+            background-color: crimson;
+        }
+        p:first-child{
+            background-color: deeppink;/*jaha bhi p first child he vaha ye css apply hogi*/
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        Hey!coder😁
+    </div>
+    <div class="one">ADARSH HERE....
+        <p>uluuuuulu</p>
+    </div>
+    <div class="one">what's up</div>
+    <span id="red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illo odio quod voluptate quibusdam quos aliquid error ducimus iure soluta quisquam, vero quasi quis molestiae placeat! Aliquid doloribus vel aperiam?
+    </span>
+
+    <div>
+        <article>
+            <p>I am descendent paragraph</p>
+        </article>
+    </div>
+    <a href="https://www.google.com">Google</a>
+</body>
+</html>
