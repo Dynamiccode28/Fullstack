@@ -1,2 +1,2 @@
 # Fullstack
-This repository is for mainting track daily learning of web dev
+This repository is for mainting track of daily learning of web dev
